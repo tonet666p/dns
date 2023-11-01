@@ -50,7 +50,7 @@ func generateUnboundConf(settings Settings, blacklistLines []string,
 		"val-log-level: " + strconv.Itoa(int(settings.ValidationLogLevel)),
 		"use-syslog: no",
 		// Performance
-		"num-threads: 2",
+		"num-threads: 4",
 		"prefetch: yes",
 		"prefetch-key: yes",
 		"key-cache-size: 32m",
